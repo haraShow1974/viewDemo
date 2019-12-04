@@ -1,4 +1,28 @@
-<img src="./img/list.jpg">
-<a href="./under.html" target="_blank">車両下部</a>
-<a href="./wheel.html" target="_blank">タイヤ</a>
-<a href="./wheel2.html" target="_blank">タイヤ2</a>
+<style>
+    .mainCont {
+        display: flex;
+    }
+
+    .flexcontainer {
+        display: flex;
+        flex-direction: column;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+</style>
+<div class="mainCont">
+    <div>
+        <img src="./img/list.jpg" width="320" height="480">
+    </div>
+    <div class="flexcontainer">
+        <a href="./under.html" target="_blank">車両下部</a>
+        <a href="./wheel.html" target="_blank">タイヤ</a>
+        <a href="./wheel2.html" target="_blank">タイヤ2</a>
+    </div>
+</div>
