@@ -1,0 +1,16 @@
+<script src="./js/openseadragon.js"></script>
+
+<!-- 画像ビューアを表示させるDIV -->
+<div id="contentDiv"></div>
+
+<script type="text/javascript">
+    // Example
+    OpenSeadragon({
+        id:              "contentDiv",
+        prefixUrl:       "./js/images/",
+        minZoomLevel:       0,
+        maxZoomLevel:       10,
+        defaultZoomLevel:   0,
+        tileSources:     "./wheel/dzc_output.xml"
+    });
+</script>

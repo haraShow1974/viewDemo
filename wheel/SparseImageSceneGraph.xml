@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<SceneGraph version="1">
+  <AspectRatio>1.50242130750605</AspectRatio>
+  <SceneNode>
+    <FileName>C:\Users\yutaka_harashima\Documents\Expression\Deep Zoom Composer Projects\UntitledProject1\Source Images\wheel.jpg</FileName>
+    <x>0</x>
+    <y>0</y>
+    <Width>1</Width>
+    <Height>1</Height>
+    <ZOrder>1</ZOrder>
+  </SceneNode>
+</SceneGraph>
